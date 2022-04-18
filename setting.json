@@ -1,0 +1,168 @@
+{
+    "editor.mouseWheelZoom": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabSize": 2,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[less]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "less.compile": {
+        "compress": false, /* 是否进行压缩处理 */
+        "sourceMap": false, /* 是否生成map（映射文件)文件，如果为true，则可以在控制台看到less的行数 */
+        "out": true, /* 编译后输出 */
+        "outExt": ".css" /* 设置编译后的文件的扩展名 */
+    },
+    // plugin is enabled / 插件是否启用
+    "backgroundCover.enabled": true,
+    // Background image path / 背景图片路径
+    "backgroundCover.imagePath": "d:\\Microsoft VS Code\\bg.jpg",
+    // Background opacity / 背景透明度(0.1 - 1)
+    "backgroundCover.opacity": 0.5,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.shell.windows": "D:\\Git\\bin\\bash.exe",
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "kite.editorMetricsEnabled": "yes",
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "backgroundCover.autoStatus": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "beautify.config": {
+        "indent_size": 2
+    },
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "vue"
+        ]
+    },
+    "editor.fontSize": 18,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    // #这里很关键，如果这里没有设置 保存时是不会对vue代码进行格式化的
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "emmet.preferences": {},
+    "editor.formatOnType": true,
+    // #让函数(名)和后面的括号之间加个空格
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    // 100 列后换行
+    "editor.wordWrapColumn": 100,
+    // 保存时格式化
+    "editor.formatOnSave": true,
+    // 开启 vscode 文件路径导航
+    "breadcrumbs.enabled": true,
+    // prettier 设置语句末尾不加分号
+    "prettier.semi": false,
+    // prettier 设置强制单引号
+    "prettier.singleQuote": true,
+    // 注释后面加空格
+    "prettier.eslintIntegration": true,
+    // 选择 vue 文件中 template 的格式化工具
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    // 显示 markdown 中英文切换时产生的特殊字符
+    "editor.renderControlCharacters": true,
+    // 设置 eslint 保存时自动修复
+    "eslint.autoFixOnSave": true,
+    // eslint 检测文件类型
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+    ],
+    // vetur 的自定义设置
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "singleQuote": true,
+            "semi": false,
+        },
+    },
+    "python.autoComplete.extraPaths": [
+        "d:/lib/site-packages (2.0.1)"
+    ],
+    "python.autoComplete.addBrackets": true,
+    "python.linting.pylintArgs": [
+        "----extension-pkg-whitelist=1xml"
+    ],
+    "python.analysis.extraPaths": [
+        "d:/lib/site-packages (2.0.1)"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "git.confirmSync": false,
+    /* "[json]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  }, */
+    // "security.workspace.trust.untrustedFiles": "open",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    /* "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  }, */
+    "vetur.validation.interpolation": false,
+    "vetur.experimental.templateInterpolationService": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+}
